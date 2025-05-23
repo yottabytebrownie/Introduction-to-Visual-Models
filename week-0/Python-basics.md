@@ -46,6 +46,7 @@ You can import these libraries in your Colab notebook by commands like:
 here is a [w3schools tutorial](https://www.w3schools.com/python/numpy/default.asp) on NumPy.
 2. [Matplotlib](https://www.w3schools.com/python/matplotlib_intro.asp): great for visualizations in Python  
 3. [Pandas](https://www.w3schools.com/python/pandas/default.asp): data analysis and manipulation
+4. [Pytorch](https://www.geeksforgeeks.org/pytorch-learn-with-examples/)
 
 # Venturing into the world of ML
 These are some useful links if you're just starting out:
