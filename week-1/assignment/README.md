@@ -19,7 +19,9 @@ We use the libraries `numpy` and `math`.
 
 We define a class called `Activations`. These activation functions are scalar operations; they shouldn't change the shape of the input.
 
-`class Activation(object):
+`
+class Activation(object):
+
     def __init__(self):
         self.state = None
         
@@ -34,7 +36,9 @@ We define a class called `Activations`. These activation functions are scalar op
 
 `Identity` activation function has been implemented for you:
 
-`class Identity(Activation):
+`
+class Identity(Activation):
+
     def __init__(self):
         super(Identity, self).__init__()
         
@@ -49,7 +53,9 @@ Now, **you** must implement the activation functions: Sigmoid, tanh, ReLU.
 Import the libraries and define the class `Activation` as described above (don't make any changes!), afterwhich you may define the activation function classes.
 For an example of how they look, here is Sigmoidal activation function:
 
-`class Sigmoid(Activation):
+`
+class Sigmoid(Activation):
+
     # Do not change the function signatures 
     
     def __init__(self):
