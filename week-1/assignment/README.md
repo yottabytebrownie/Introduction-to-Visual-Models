@@ -19,7 +19,7 @@ We use the libraries `numpy` and `math`.
 
 We define a class called `Activations`. These activation functions are scalar operations; they shouldn't change the shape of the input.
 
-`
+'''python
 class Activation(object):
 
     def __init__(self):
