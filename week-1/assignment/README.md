@@ -19,55 +19,58 @@ We use the libraries `numpy` and `math`.
 
 We define a class called `Activations`. These activation functions are scalar operations; they shouldn't change the shape of the input.
 
-'''python
-class Activation(object):
+'Activation class:
 
-    def __init__(self):
-        self.state = None
-        
-    def __call__(self, x):
-        return self.forward(x)
-        
-    def forward(self, x):
-        raise NotImplemented
-        
-    def derivative(self):
-        raise NotImplemented`
+    class Activation(object):
+
+        def __init__(self):
+            self.state = None
+            
+        def __call__(self, x):
+            return self.forward(x)
+            
+        def forward(self, x):
+            raise NotImplemented
+            
+        def derivative(self):
+            raise NotImplemented`
 
 `Identity` activation function has been implemented for you:
 
-`
-class Identity(Activation):
+`Identity class:
 
-    def __init__(self):
-        super(Identity, self).__init__()
-        
-    def forward(self, x):
-        self.state = x
-        return x
-        
-    def derivative(self):
-        return 1.0`
+    class Identity(Activation):
+
+        def __init__(self):
+            super(Identity, self).__init__()
+            
+        def forward(self, x):
+            self.state = x
+            return x
+            
+        def derivative(self):
+            return 1.0`
 
 Now, **you** must implement the activation functions: Sigmoid, tanh, ReLU.
 Import the libraries and define the class `Activation` as described above (don't make any changes!), afterwhich you may define the activation function classes.
 For an example of how they look, here is Sigmoidal activation function:
 
-`
-class Sigmoid(Activation):
+`Sigmoid class:
 
-    # Do not change the function signatures 
-    
-    def __init__(self):
-        super(Sigmoid, self).__init__()
+    class Sigmoid(Activation):
+
+        # Do not change the function signatures 
         
-    def forward(self, x):
-        # What do we need to store before returning???
-        raise NotImplemented
-        
-    def derivative(self):
-        # What do we need to store before returning??? 
-        raise NotImplemented`
+        def __init__(self):
+            super(Sigmoid, self).__init__()
+            
+        def forward(self, x):
+            # What do we need to store before returning???
+            raise NotImplemented
+            
+        def derivative(self):
+            # What do we need to store before returning??? 
+            raise NotImplemented`
 
 This exercise tests your implementation of `forward` and `derivative` class methods. 
 
