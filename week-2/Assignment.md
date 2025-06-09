@@ -19,12 +19,25 @@ Make a 'pneumonia or normal classifier' using the kaggle dataset.
 [kaggle link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 Loading data in colab directly:
-`
-!pip install kaggle
-!mkdir ~/.kaggle
-!mv kaggle.json ~/.kaggle/
-!kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
-!unzip chest-xray-pneumonia.zip`
+```bash
+# Install Kaggle API
+pip install kaggle
+
+# Create the Kaggle configuration directory
+mkdir ~/.kaggle
+
+# Move your Kaggle API key to the config folder
+mv kaggle.json ~/.kaggle/
+
+# (Optional) Set proper permissions
+chmod 600 ~/.kaggle/kaggle.json
+
+# Download the dataset
+kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
+
+# Unzip the downloaded dataset
+unzip chest-xray-pneumonia.zip
+```
 
 Accuracy on testing data should be more than 60%
 
