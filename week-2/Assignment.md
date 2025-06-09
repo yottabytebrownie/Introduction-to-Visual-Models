@@ -29,9 +29,6 @@ mkdir ~/.kaggle
 # Move your Kaggle API key to the config folder
 mv kaggle.json ~/.kaggle/
 
-# (Optional) Set proper permissions
-chmod 600 ~/.kaggle/kaggle.json
-
 # Download the dataset
 kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
 
