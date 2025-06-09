@@ -88,7 +88,8 @@ In this week, you will:
 Focus on Videos 16–21.
 
 ---
-
+Refer to [this](https://www.geeksforgeeks.org/loss-functions-in-deep-learning/)  to learn about loss functions andoptimizers.
+Optional: Learn about image segmentation [U-net](https://www.jeremyjordan.me/semantic-segmentation/)
 
 
 
