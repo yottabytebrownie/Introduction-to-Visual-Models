@@ -1,4 +1,4 @@
-# Week 4: Building and Exploring Autoencoders with TensorFlow
+# Week 3: Building and Exploring Autoencoders with TensorFlow
 
 ## Objectives
 In this week, you will:
