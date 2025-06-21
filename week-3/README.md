@@ -17,7 +17,9 @@ In this week, you will:
 - Learn the basic structure: encoder, bottleneck, and decoder.
 - Understand the reconstruction loss (e.g., MSE, binary cross-entropy).
 - Explore use cases: data compression, denoising, anomaly detection.
-- **Resource**: [Intro to Autoencoders (Machine Learning Mastery)](https://machinelearningmastery.com/autoencoders/)
+- **Resource**:
+  [VAEs explained!](https://www.youtube.com/watch?v=fcvYpzHmhvA)
+  [YT playlist](https://www.youtube.com/playlist?list=PLyFpZIg7OtNRRcaOEdmiz1WEd97VHqfd6)
 
 ---
 
@@ -32,7 +34,7 @@ In this week, you will:
 ### 3. Denoising Autoencoders
 - Learn to add noise to inputs and train the autoencoder to recover clean data.
 - Understand the robustness benefits in image reconstruction tasks.
-- **Code Example**: [Denoising Autoencoder in TensorFlow (Kaggle)](https://www.kaggle.com/code/mohammadamireshraghi/denoising-autoencoder-in-tensorflow)
+- **Code Example**: [Denoising Autoencoder](https://www.geeksforgeeks.org/machine-learning/denoising-autoencoders-in-machine-learning/)
 
 ---
 
@@ -61,8 +63,6 @@ In this week, you will:
 ## Additional Resources
 
 -  **Video**: [What are Autoencoders? - StatQuest](https://www.youtube.com/watch?v=9zKuYvjFFS8)
--  **Blog**: [Autoencoders in Deep Learning (Towards Data Science)](https://towardsdatascience.com/introduction-to-autoencoders-6f0caae715b3)
--  **GitHub**: [Awesome Autoencoders Repo](https://github.com/rasbt/autoencoders)
 
 ---
 
