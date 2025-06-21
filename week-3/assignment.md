@@ -82,7 +82,7 @@ You will implement **four VAE variants**:
 ## 📁 Submission Guidelines
 
 - Submit:
-  - `vae_variants.ipynb` or `vae_variants.py`
+  - `vae_variants.ipynb` or `vae_variants.py`, containing the variations of autoencoders
   - `assignment.md` (this file, with Part B filled in)
 
 
