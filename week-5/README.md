@@ -1,4 +1,9 @@
 # Diffusion models
+## Video Resources
+* [what are diffusion models](https://www.youtube.com/watch?v=fbLgFrlTnGU)
+* [how AI image generators work](https://www.youtube.com/watch?v=1CIpzeNxIhU)
+* [diffusion implementation](https://www.youtube.com/watch?v=XTs7M6TSK9I)
+
 Diffusion models are a class of generative models that simulate the process of adding and removing noise to generate data.
 They have gained prominence for their ability to generate high-quality data, especially in fields like image and speech generation.
 
@@ -35,4 +40,3 @@ Here, `β_t` controls the noise schedule, and `ε` is Gaussian noise. The revers
 2. Slow Sampling: Generating a single sample involves multiple reverse diffusion steps.
 
 3. Complexity: Their architecture and training process can be challenging to implement and understand.
-
